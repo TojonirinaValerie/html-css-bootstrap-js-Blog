@@ -1,0 +1,207 @@
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url('../images/baniere.jpg');
+    background-repeat: repeat;
+}
+.separateur{
+    margin: 0px;
+}
+
+/*---------------------------------------------------------------------------------------*/
+
+.section-title{
+    display: block;
+    line-height: 0px;
+}
+
+/*---------------------------------------------------------------------------------------*/
+
+.item{
+    margin: 10px 0;
+}
+.item-lien, .item-lien:hover{
+    color: #000;
+    text-decoration: none;
+}
+.marge{
+    padding: 10px;
+}
+.blog{
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #EEE;
+    border: #BBB solid 1px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 10px #AAA;
+}
+.blog-img{
+    background-size: cover;
+    height: 300px;
+}
+.blog-img-blog{
+    background-size: cover;
+    height: 150px;
+}
+.blog-img-item{
+    background-size: cover;
+    height: 400px;
+}
+#blog1{
+    background-image: url("../images/1.jpg");
+}
+#blog2{
+    background-image: url("../images/209886143_1156562228174316_9088398741468512245_n.jpg");
+}
+#blog3{
+    background-image: url("../images/209121166_254620432761873_3883768710436845684_n.jpg");
+}
+#blog4{
+    background-image: url("../images/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+}
+#blog5{
+    background-image: url("../images/_jennduncan-2_1_.jpg");
+}
+#blog6{
+    background-image: url("../images/209349047_333839921704336_2779247946438536288_n.jpg");
+}
+#blog7{
+    background-image: url("../images/210343136_1035195920622769_7612069892872011298_n.jpg");
+}
+#blog8{
+    background-image: url("../images/TeChNi-AmEcO\ \(340\).jpg");
+}
+#blog9{
+    background-image: url("../images/90c64aa5c435f09c8c635873fc4846ab-la-varangue.jpg");
+}
+#blog10{
+    background-image: url("../images/alexander-kaunas-xEaAoizNFV8-unsplash.jpg");
+}
+#blog12{
+    background-image: url("../images/ciudad-maderas-MXbM1NrRqtI-unsplash.jpg");
+}
+.contenue{
+    padding: 10px;
+    font-size:medium;
+}
+.blog-title{
+    font-size: 28px;
+}
+.blog-auteur-comment{
+    font-size: 20px;
+}
+.comment{
+    border-left: solid #888 1px;
+    padding: 0 15px;
+}
+.auteur{
+    padding-right: 15px;
+}
+.blog-id{
+    padding: 10px 0;
+}
+.liste-icone{
+    margin-top: 10px;
+}
+
+/*---------------------------------------------------------------------------------------*/
+
+.liste{
+    padding: 10px;
+}
+
+/*---------------------------------------------------------------------------------------*/
+
+.liste-coms{
+    padding: 10px;
+    margin: 10px;
+    font-size: 28px;
+}
+.coms-item{
+    font-size: medium;
+    padding: 10px;
+    margin: 10px;
+    background-color: #EEE;
+    border: #BBB solid 1px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 10px #AAA;
+}
+.coms-item p{
+    padding: 0px;
+    margin: 0px;
+}
+.auteur-coms{
+    text-align: right;
+}
+.style-auteur{
+    color: rgb(69, 165, 213);
+}
+
+/*---------------------------------------------------------------------------------------*/
+
+.block-cats, .block-archive{
+    padding: 10px;
+    margin: 10px;
+    font-size: 28px;
+}
+.liste-cats, .liste-archive{
+    font-size: medium;
+}
+.liste-cats a, .liste-archive a{
+    color: #000;
+    text-decoration: none;
+}
+.liste-cats a:hover, .liste-archive a:hover{
+    color: rgb(69, 165, 213);
+}
+
+/*---------------------------------------------------------------------------------------*/
+
+.ancre{
+    width: 50px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.ancre:hover{
+    transform: scale(1.1);
+}
+
+.header-icone a img:hover, .menu li a:hover{
+    transform: scale(1.2);
+}
+.item:hover{
+    transform: scale(1.01);
+}
+
+.image-blog{
+    width: 90%;
+}
+
+.commentaire-item{
+    list-style: none;
+}
+.commentaire-item h5{
+    margin: 0;
+}
+.input-text-blanc{
+    border-radius: 6px;
+    margin: 3px;
+    padding: 5px;
+    border: solid 1px #888;
+}
+.btn-comms{
+    background-color: rgb(59, 59, 59);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    margin: 3px;
+    padding: 5px;
+}
+.btn-comms:hover{
+    background-color: rgb(82, 82, 82);
+}
+
+.item-blog{
+    color: #000;
+    text-decoration: none;
+}

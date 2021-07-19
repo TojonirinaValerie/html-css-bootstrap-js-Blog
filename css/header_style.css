@@ -1,0 +1,41 @@
+.en-tete{
+    background-color: rgb(39, 38, 44);
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+.icone-img{
+    margin-left: 3px;
+}
+
+.nav-bar{
+    padding: 10px 0;
+    color: #fff;
+    background-color: rgb(39, 38, 44);
+}
+.nav-bar-title{
+    font-size: 45px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.menu{
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 40px;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+    margin: 0 5px;
+}
+.menu li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 28px;
+}
+.menu li a:hover{
+    color: #000;
+    background-color: #fff;
+    border-radius: 10px;
+}
